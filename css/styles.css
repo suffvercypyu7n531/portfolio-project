@@ -1,0 +1,78 @@
+.hero{
+padding:100px 0;
+text-align:center;
+background:#f8f9fa;
+}
+
+.hero h1{
+font-weight:700;
+}
+
+.service-box{
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.05);
+text-align:center;
+}
+
+.project-card{
+border:none;
+box-shadow:0 4px 10px rgba(0,0,0,0.05);
+}
+
+.nav-item:hover{
+    background-color: #dde;
+    border-radius: 5px;
+}
+
+.hero h2{
+    margin-top: 70px;
+}
+
+#skill{
+    text-align: center;
+}
+
+.service-box li{
+display: flex;
+align-items: center;
+gap: 10px;
+margin-bottom: 10px;
+font-size: 18px;
+font-weight: bold;
+;
+}
+
+.service-box img{
+width: 24px;
+height: 24px;
+}
+
+.card-body{
+    text-align: center;
+}
+
+#h-project{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.btn-project{
+padding:10px 24px;
+border-radius:30px;
+font-weight:600;
+transition:all 0.3s ease;
+box-shadow:0 4px 10px rgba(0,0,0,0.15);
+}
+
+.btn-project:hover{
+background-color:#0d6efd;
+transform:translateY(-3px);
+box-shadow:0 8px 20px rgba(0,0,0,0.25);
+}
+
+.btn-project:active{
+transform:translateY(1px);
+box-shadow:0 3px 6px rgba(0,0,0,0.2);
+}
